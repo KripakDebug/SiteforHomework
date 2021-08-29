@@ -17,6 +17,7 @@ justify-content: center;
     z-index: 5;
     position: absolute;
     font-size:50px;
+    text-align: center;
     font-weight: bold;
     letter-spacing: 5px;
     color: #fff;
@@ -49,6 +50,7 @@ transform: translateY(-95px);
 .section__title{
     font-weight: bold;
     font-size: 35px;
+    text-align: center;
     margin-top: 105px;
 }
 .section__blockhomework{
@@ -56,6 +58,8 @@ transform: translateY(-95px);
     flex-direction: row;
     margin-bottom: 75px;
     width: 100%;
+    align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
 margin-top: 75px;
 }
@@ -86,6 +90,16 @@ margin-top: 75px;
             color: rgb(16, 62, 70);
             border: 3px solid rgb(6, 52, 58);
             background-color: rgb(29, 187, 235);
+        }
+    }
+    &:nth-child(3){
+        color: rgb(101, 102, 27);
+        border: 3px solid rgb(34, 33, 2);
+        background-color: rgb(223, 219, 22);
+        &:hover{
+            color: rgb(156, 158, 39);
+            border: 3px solid rgb(32, 34, 2);
+            background-color: rgb(255, 251, 1);
         }
     }
 }
