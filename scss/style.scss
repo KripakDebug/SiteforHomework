@@ -55,15 +55,14 @@ transform: translateY(-95px);
 }
 .section__blockhomework{
     display: flex;
-    flex-direction: row;
-    margin-bottom: 75px;
+    flex-direction: column;
     width: 100%;
     align-content: center;
     justify-content: center;
-    flex-wrap: wrap;
+  
 margin-top: 75px;
 }
-.section__homework{
+  .section__work{
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -101,6 +100,31 @@ margin-top: 75px;
             border: 3px solid rgb(32, 34, 2);
             background-color: rgb(255, 251, 1);
         }
+    }
+    &:nth-child(4){
+        color: rgb(14, 63, 66);
+        border: 3px solid rgb(7, 61, 65);
+        transition: all .5s;
+        background-color: rgb(29, 144, 173);
+        &:hover{
+            background-color: rgb(30, 195, 224);
+        }
+    }
+  }
+.section__homework{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+    .section__text{
+        font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        color: rgb(217, 237, 255);
     }
 }
 .section__blockinfo{

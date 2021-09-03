@@ -86,23 +86,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 75px;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin-top: 75px;
 }
 
-.section__homework {
+.section__work {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,28 +123,64 @@
   margin: 25px 25px;
   margin-bottom: 55px;
 }
-.section__homework:hover {
+.section__work:hover {
   background-color: #da1ee0;
 }
-.section__homework:nth-child(2) {
+.section__work:nth-child(2) {
   color: #103e46;
   border: 3px solid #06343a;
   background-color: #2e9fc2;
 }
-.section__homework:nth-child(2):hover {
+.section__work:nth-child(2):hover {
   color: #103e46;
   border: 3px solid #06343a;
   background-color: #1dbbeb;
 }
-.section__homework:nth-child(3) {
+.section__work:nth-child(3) {
   color: #65661b;
   border: 3px solid #222102;
   background-color: #dfdb16;
 }
-.section__homework:nth-child(3):hover {
+.section__work:nth-child(3):hover {
   color: #9c9e27;
   border: 3px solid #202202;
   background-color: #fffb01;
+}
+.section__work:nth-child(4) {
+  color: #0e3f42;
+  border: 3px solid #073d41;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #1d90ad;
+}
+.section__work:nth-child(4):hover {
+  background-color: #1ec3e0;
+}
+
+.section__homework {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section__homework .section__text {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  color: #d9edff;
 }
 
 .section__blockinfo {
