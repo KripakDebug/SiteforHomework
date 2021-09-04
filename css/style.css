@@ -156,6 +156,16 @@
 .section__work:nth-child(4):hover {
   background-color: #1ec3e0;
 }
+.section__work:nth-child(5) {
+  color: #42300e;
+  border: 3px solid #412607;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #d1981e;
+}
+.section__work:nth-child(5):hover {
+  background-color: #f7a50e;
+}
 
 .section__homework {
   display: -webkit-box;

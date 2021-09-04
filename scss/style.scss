@@ -110,6 +110,15 @@ margin-top: 75px;
             background-color: rgb(30, 195, 224);
         }
     }
+    &:nth-child(5){
+        color: rgb(66, 48, 14);
+        border: 3px solid rgb(65, 38, 7);
+        transition: all .5s;
+        background-color: rgb(173, 127, 29);
+        &:hover{
+            background-color: rgb(224, 156, 30);
+        }
+    }
   }
 .section__homework{
     display: flex;
